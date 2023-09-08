@@ -18,7 +18,7 @@ RUN pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 -
 
 RUN pip install ipywidgets wandb tqdm scikit-learn
 RUN pip install  open_clip_torch clip-interrogator
-RUN pip install pandas 
+RUN pip install pandas pymystem3 bokeh nltk matplotlib
 
 #### ADD USER WITH DEFAULT PW
 ARG USER=docker_current
